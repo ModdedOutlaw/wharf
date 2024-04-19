@@ -100,9 +100,9 @@ export async function get_info(name: string) {
     const balance = await account.balance()
 
     console.log(balance.toJSON())
-    console.log("ACCOUNT " + response.data[0].account+" HAS "+response.data[0].assets+" ASSETS!")
-    console.log("Upliftium Image Id: "+upliftium_collection_info.data.img)
-    upliftium_info.set(upliftium_collection_info.data.img);
+    //console.log("ACCOUNT " + response.data[0].account+" HAS "+response.data[0].assets+" ASSETS!")
+    //console.log("Upliftium Image Id: "+upliftium_collection_info.data.img)
+    //upliftium_info.set(upliftium_collection_info.data.img);
     console.log("CHECK =" + upliftium_info);
     console.log(response)
     
