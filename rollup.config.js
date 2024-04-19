@@ -65,7 +65,7 @@ export default {
 		json(),
 		commonjs(),
 		typescript({
-			sourceMap: !production,
+			sourceMap: true,
 			inlineSources: !production
 		}),
 
